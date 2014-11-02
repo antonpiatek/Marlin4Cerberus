@@ -563,6 +563,10 @@
     #endif
   #endif
 
+  // Anton - swapping extruder/bed heater pins
+  #define HEATER_BED_PIN     10
+  #define HEATER_0_PIN       8
+
   #define TEMP_BED_PIN       14   // ANALOG NUMBERING
 
   #ifdef NUM_SERVOS
